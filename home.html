@@ -1,0 +1,416 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('include/school.jpg');
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .navbar-container {
+            background-color: #ca1a5e;
+            overflow: hidden;
+            border-radius: 10px;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        ul.navbar-list {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            /* Corrected the padding to 0 */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        li.navbar-item a {
+            color: white;
+            text-align: right;
+            padding: 14px 20px;
+            text-decoration: none;
+            display: inline-block;
+            /* Added display: inline-block; */
+        }
+
+        li.navbar-item a:hover {
+            background-color: #ca1a5e;
+            color: white !important;
+        }
+
+        .hero-section {
+            padding: 20px;
+            text-align: center;
+            color: #fff;
+        }
+
+        .w3-card-4 {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .border-radius-container {
+            border-radius: 20px;
+            background-color: white;
+            border: 3px solid #ca1a5e;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 600px;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .animated {
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        /* Added a class for the additional content section */
+        .additional-content {
+            border-radius: 20px;
+            background-color: white;
+            border: 3px solid #ca1a5e;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 600px;        }
+
+ /* Add styles as needed */
+
+.w3-container {
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        /* Padding for sections */
+.w3-container {
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        /* Padding for sections */
+        .w3-padding-32 {
+            padding-top: 32px;
+            padding-bottom: 32px;
+        }
+
+        /* Border bottom for headings */
+        .w3-border-bottom {
+            border-bottom: 1px solid #ddd;
+        }
+
+        /* Margin for team members */
+        .w3-margin-bottom {
+            margin-bottom: 16px;
+        }
+
+        /* Responsive images */
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Responsive columns */
+        .w3-col {
+            width: 100%;
+            margin-bottom: 16px;
+            display: inline-block;
+        }
+
+        @media (min-width: 601px) {
+            .w3-col {
+                width: 48%;
+                margin-right: 4%;
+            }
+        }
+
+        @media (min-width: 992px) {
+            .w3-col {
+                width: 24%;
+                margin-right: 4%;
+            }
+        }
+
+        /* Button styles */
+        .w3-button {
+            width: 100%;
+        }
+
+        /* Box styles for team members */
+        .team-box {
+            background-color: #fff;
+            padding: 16px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }   
+        .w3-center{       
+        text-align: center; /* Center text within the body */
+        }
+
+        .w3-center {
+            display: inline-block; /* Make the element an inline-block to center it */
+        }
+
+        .mySlides {
+            display: block;
+            margin: 0 auto; /* Set left and right margins to auto */
+        }        
+
+/* Announcement Section Styles */
+#announcement {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #f5c6cb;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+    position: relative;
+}
+
+#announcement p {
+    margin: 0;
+}
+
+#closeButton {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    color: #721c24;
+    font-weight: bold;
+}
+
+#closeButton:hover {
+    color: #c00;
+}
+        
+    </style>    
+   
+
+</head>
+
+<body>
+    <div class="navbar-container">
+        <ul class="navbar-list">
+            <li class="navbar-item"><a href="http://localhost/Taska2023/home.php">Home</a></li>
+            <li class="navbar-item"><a href="http://localhost/Taska2023/contact_us.php">Contact</a></li>
+            <li class="navbar-item"><a href="http://localhost/Taska2023/about_us.php">About</a></li>
+            <li class="navbar-item"><a href="http://localhost/Taska2023/login_admin.php">Admin</a></li>
+            <li class="navbar-item"><a href="http://localhost/Taska2023/login_teacher.php">Teacher</a></li>
+            <li class="navbar-item"><a href="http://localhost/Taska2023/login_parent.php">Parents</a></li>
+        </ul>
+    </div>
+
+    <div class="hero-section">
+        <!-- Background image section -->
+        <div class="w3-card-4">
+            <div class="w3-card-4">
+                <img src="include/TSM.jpg" alt="Alps" style="width: 20%;">
+                <div class="w3-container w3-center">
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Announcement Section -->
+<div id="announcement">
+    <span id="closeButton" onclick="closeAnnouncement()">✖</span>
+    <?php
+    // Read announcement from announcement.txt file
+    $announcement_file = fopen("announcement.txt", "r") or die("Unable to open file!");
+    $announcement = fread($announcement_file, filesize("announcement.txt"));
+    fclose($announcement_file);
+    echo "<p>$announcement</p>";
+    ?>
+</div>
+
+<!-- Announcement Script -->
+<script>
+    // JavaScript code for closing announcement
+    function closeAnnouncement() {
+        var announcement = document.getElementById("announcement");
+        announcement.style.display = "none";
+    }
+</script>    <section>
+        <!-- First content section -->
+        <div class="border-radius-container animated" id="borderadius1">
+            Welcome to our preschool, where learning meets laughter! At Taska Sinar Mesra, we provide a nurturing environment for
+            your little ones to grow, explore, and discover the joy of learning. Our dedicated team of educators is committed to
+            fostering early childhood development through creative play, social interaction, and age-appropriate activities. We
+            believe in creating a foundation for lifelong learning and building happy memories for your child. Join us on this
+            exciting journey of early education, where every day is an adventure
+        </div>
+    </section>
+
+
+    
+    <!-- Additional content section -->
+    <!-- <div class="additional-content">
+        Third content section
+        <section>
+            <div class="border-radius-container animated" id="borderadius3">
+                Add your content here.
+            </div>
+        </section>
+
+        Fourth content section
+        <section>
+            <div class="border-radius-container animated" id="borderadius4">
+                Add your content here.
+            </div>
+        </section>
+    </div> -->
+        <div class="border-radius-container animated" id="borderadius1">
+
+    <section class="w3-container w3-padding-32">
+        <h2 class="w3-border-bottom w3-border-light-grey w3-padding-16">About Our Teacher</h2>
+        <p>Join us on this enriching journey at Taska Sinar Mesra, where we go beyond traditional education, embracing the
+        individuality of each child. Here, the magic of childhood is not just preserved but actively cultivated, creating a warm
+        and inviting atmosphere that feels like a second home for both children and their families. Discover the joy of early
+        learning with us, where every moment is an opportunity for growth, friendship, and the pure delight of being a child.
+        </p>            
+    </div>
+
+
+    
+    <!-- Team Section -->
+    <section class="w3-container w3-padding-32" style="text-align: center;">
+        <div class="w3-row-padding w3-grayscale">
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="team-box">
+                <img src="include/man2.jpg" alt="Alps">
+                    <h3> Sir Rauf</h3>
+                    <p class="w3-opacity">Mathematic</p>
+                    <p>Mathematics is not about numbers, equations, or rules; it's about understanding, creativity, and making sense of the
+                    world around us. </p>
+                </div>
+            </div>
+    
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="team-box">
+                    <img src="include/main.jpg" alt="Jane">
+                    <h3>Miss Elise</h3>
+                    <p class="w3-opacity">Hijaiyah</p>
+                    <p>Learning the beauty of Hijaiyah is like unlocking the secrets of an ancient treasure chest, each letter a precious gem
+                    waiting to be discovered.</p>
+                </div>
+            </div>
+    
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="team-box">
+                    <img src="include/man1.jpg" alt="Mike">
+                    <h3>Sir Amir</h3>
+                    <p class="w3-opacity">English</p>
+                    <p>Dream big, little one. Your imagination can take you anywhere. Encouraging kids to explore their creative side and envision a world of possibilities</p>
+                </div>
+            </div>
+    
+
+            <div class="border-radius-container animated" id="borderadius1">
+    <section class="w3-container w3-padding-32">
+        <h2 class="w3-border-bottom w3-border-light-grey w3-padding-16">Courses</h2>
+        <p>Join us on this enriching journey at Taska Sinar Mesra, where we go beyond traditional education, embracing the
+            individuality of each child. Here, the magic of childhood is not just preserved but actively cultivated,
+            creating a warm
+            and inviting atmosphere that feels like a second home for both children and their families. Discover the joy of
+            early
+            learning with us, where every moment is an opportunity for growth, friendship, and the pure delight of being a
+            child.
+        </p>
+        </div>
+
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="team-box">
+                    <img src="include/math2.jpg" alt=""  style="width:100%">
+                    <h3>Mathematic</h3>
+                    <p class="w3-opacity"></p>
+                    <p></p>
+                </div>
+            </div>
+    
+            <!-- Additional team members (adjust as needed) -->
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="team-box">
+                    <img src="include/Hijaiyah.jpg" alt=""  style="width:100%">
+                    <h3>Hijaiyah<h3>
+                    <p class="w3-opacity"></p>
+                    <p></p>
+                </div>
+            </div>
+    
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="team-box">
+                    <img src="include/english2.png" alt="" style="width:100%">
+                    <h3>English</h3>
+                    <p class="w3-opacity"></p>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+<style>
+</style>
+            <!-- Untuk Manual Slide Show  -->
+</head>
+
+    
+    <script>
+        var slideIndex = 1;
+
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+
+            if (n > x.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = x.length }
+
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+
+            x[slideIndex - 1].style.display = "block";
+        }
+
+        
+    </script>
+
+    <!-- Announcement Script -->
+    <script>
+        function closeAnnouncement() {
+            var announcement = document.getElementById("announcement");
+            announcement.style.display = "none";
+        }
+    </script>
+
+</body>
+
+</html>
